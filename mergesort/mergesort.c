@@ -5,7 +5,6 @@ void mergeRanges(int* values, int startIndex, int midPoint, int endIndex);
 
 void mergesort(int size, int* values) {
   mergesortRange(values, 0, size);
-  return;
 }
 
 void mergesortRange(int* values, int startIndex, int endIndex) {
